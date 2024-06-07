@@ -1,0 +1,94 @@
+/* Default font for the page */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#dde1e5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading font */
+h1, h2 {    
+    color: rgb(109, 9, 9);
+}
+h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.heading-box {
+    background-color: #a4b6c7;
+    padding:1.5em; 
+    margin-bottom: 1.5em;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.box {
+    height: 100px;
+    box-shadow: 3px 3px 10px black;
+    margin-top: 1.5em;
+    padding: .5em;
+    text-align:left;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+button
+{
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #042d48;
+}
+
+fieldset {
+    border: 1px solid #450202;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+label {
+    font-weight: bold;
+}
+
+
+.related {
+    background-color: #9fb0c0;
+    color: #ecf0f1;
+    padding: 20px;
+}
+
+aside {
+    border-left: 4px solid #000000;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+section {
+    border-left: 4px solid #000000;
+    padding-left: 10px;
+    margin-bottom: 20px;    
+}

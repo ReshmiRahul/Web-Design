@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#dde1e5;
+    color: #040000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #035271;
+    color: white;
+    padding: 1rem 0;
+    text-align: left;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 2;
+    margin-right: 2rem;
+}
+
+article img {
+    width: 20cm;
+    height: 12cm;
+    margin: 1rem 0;
+}
+
+
+footer {
+    background-color: #035271;
+    color: white;
+    text-align: center;
+    padding: .3rem 0;
+}
+
+#comments {
+    margin: 2rem 0;
+}
+
+#comments form {
+    display: flex;
+    flex-direction: column;
+}
+
+#comments label {
+    margin-top: 1rem;
+}
+
+#comments input, #comments textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#comments button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #035271;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#comments button:hover {
+    background-color: #4a0707;
+}
